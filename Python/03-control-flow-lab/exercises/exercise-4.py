@@ -24,6 +24,10 @@ if int(a) > 0 and int(b) > 0 and int(c) > 0:
         print('The triangle you described is an isosceles triangle')
     elif a != b and a == c:
         print('The triangle you described is an isosceles triangle')
+    elif c == b and a != c:
+        print('The triangle you described is an isosceles triangle')
+    elif a != b and a == c:
+        print('The triangle you described is an isosceles triangle')
     else:
         print('The triangle you described is a scalene triangle')
 else:
