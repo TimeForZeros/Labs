@@ -12,3 +12,11 @@
 #      etc.
 
 # Hint: The next number is found by adding the two numbers before it
+fib_list = [0, 1]
+for idx in range (50):
+    if idx < 2:
+        print(idx)
+    else:
+        fib_num = fib_list[idx-1] + fib_list[idx-2]
+        print(fib_num)
+        fib_list.append(fib_num)
