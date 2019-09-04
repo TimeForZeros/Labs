@@ -27,11 +27,10 @@ day = input('Endter the day of the month: ')
 if month in ['DEC', 'JAN', 'FEB', 'MAR']:
     if month == 'MAR' and int(day) > 19:
         print(f'{month} {day} is in Spring')
-    else:
-        if month == 'DEC' and int(day) <=20:
-            print(f'{month} {day} is in Fall')
-        else:    
-            print(f'{month} {day} is in Winter')
+    elif month == 'DEC' and int(day) <=20:
+        print(f'{month} {day} is in Fall')
+    else:    
+        print(f'{month} {day} is in Winter')
 
 elif month in ['MAR', 'APR', 'MAY', 'JUN']:
     if month == 'JUN' and int(day) > 20:
